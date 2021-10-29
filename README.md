@@ -3,11 +3,11 @@
 ## Ejercicio 1
 
 #### 1. Instalar el IDE Visual Studio Code
-![Visual Studio Code Installation Screenshot](./images/VSC.png)
+![Visual Studio Code Installation Screenshot](./images/VSC.PNG)
 
 #### 2. Instalar GIT y GIT Bash
-![GIT GUI Installation Screenshot](./images/GIT.png)
-![GIT Bash Installation Screenshot](./images/GIT_Bash.png)
+![GIT GUI Installation Screenshot](./images/GIT.PNG)
+![GIT Bash Installation Screenshot](./images/GIT_Bash.PNG)
 
 ## Ejercicio 2
 
@@ -96,19 +96,19 @@ Por ejemplo el header 'Content-type' es un header de tipo representación ya que
 
 #### 1. Descargar el POSTMAN:
 
-![POSTMAN Installation Screenshot](./images/POSTMAN.png)
+![POSTMAN Installation Screenshot](./images/POSTMAN.PNG)
 
 #### 2. Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
-![GET Request Screenshot](./images/GET_3.png)
+![GET Request Screenshot](./images/GET_3.PNG)
 
 #### 3.	Realizar un request POST a la URL anterior, y con body:
 
-![POST Request Screenshot](./images/POST_3.png)
+![POST Request Screenshot](./images/POST_3.PNG)
 
 #### 4. Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
-![GET New Request Screenshot](./images/GET_3_NEW.png)
+![GET New Request Screenshot](./images/GET_3_NEW.PNG)
 
 #### ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 En la llamada del punto 1, GET, estamos pidiendo información al servidor. En la llamada del punto 3, GET, después de haber enviado información al servidor con POST recibimos una respuesta en formato JSON con la llave nombre seguido del valor con una cadena de caracteres.
@@ -238,22 +238,22 @@ Representa articulo por el cual se abrió el evento o caso, sirve de apoyo para 
 | IsSharedByEmail | Reference |
 
 #### Diagrama UML:
-![Simple Diagram](./images/UML.png)
+![Simple Diagram](./images/UML.PNG)
 
 ## Ejercicio 6
 #### A.	Consultar tu ID haciendo un GET con POSTMAN a este WS:
-![ID Consult](./images/GET_4.png)
+![ID Consult](./images/GET_4.PNG)
 
 #### B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres.
-![Added Field](./images/FIELD.png)
+![Added Field](./images/FIELD.PNG)
 
 #### C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1.
 
 #### Apex trigger:
-![Trigger](./images/Trigger.png)
+![Trigger](./images/Trigger.PNG)
 
 #### Handler class para trigger:
-![Handler](./images/Handler.png)
+![Handler](./images/Handler.PNG)
 
 ## Ejercicio 7
 
