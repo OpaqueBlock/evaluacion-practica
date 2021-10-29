@@ -245,7 +245,7 @@ Representa articulo por el cual se abrió el evento o caso, sirve de apoyo para 
 ![ID Consult](./images/GET_4.PNG)
 
 #### B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres.
-![Added Field](./images/FIELD.PNG)
+![Added Field](./images/FIELD.png)
 
 #### C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1.
 
